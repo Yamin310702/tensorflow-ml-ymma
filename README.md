@@ -26,10 +26,10 @@ Train a neural network on MNIST and reduce overfitting using Dropout.
 
 ## Training Curves
 ### Baseline
-![Baseline Training Curve](results/mnist_baseline_acc.png)
+![Baseline Training Curve](mnist_baseline_acc.png)
 
 ### Baseline vs Dropout
-![Validation Accuracy Comparison](results/mnist_compare_val_acc.png)
+![Validation Accuracy Comparison](mnist_compare_val_acc.png)
 
 ## What I Learned
 - How to build and train models using TensorFlow/Keras
