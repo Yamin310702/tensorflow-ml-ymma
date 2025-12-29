@@ -41,3 +41,13 @@ Train a neural network on MNIST and reduce overfitting using Dropout.
 ```bash
 pip install -r requirements.txt
 jupyter notebook
+
+## Limitations
+- The current models use fully connected (dense) layers and do not explicitly leverage the spatial structure of image data.
+- Convolutional Neural Networks (CNNs), which are better suited for image tasks, would likely achieve higher accuracy.
+- Hyperparameter tuning was limited to basic experimentation; more systematic approaches could further improve performance.
+
+## Future Work
+- Implement convolutional neural networks (CNNs) to better capture spatial features.
+- Apply data augmentation techniques to improve robustness.
+- Perform structured hyperparameter optimization and compare additional regularization methods.
